@@ -14,15 +14,15 @@
 
        <div class="withdraw bg-cyan-700 text-center py-6 px-8 mx-6 rounded-xl"> 
         <h2 class="text-2xl font-bold mb-6">Total Deposit</h2>
-        <p >$00</p>
+        <p >$<span id="totalDeposit">00</span></p>
     </div>
        <div class="withdraw bg-sky-900  text-center py-6 px-8 mx-6 rounded-xl"> 
         <h2 class="text-2xl font-bold mb-6">Total Withdraw</h2>
-        <p >$00</p>
+        <p >$<span id="totalWidthdraw">00</span> </p>
     </div>
        <div class="withdraw bg-lime-600  text-center py-6 px-10 mx-6 rounded-xl"> 
         <h2 class="text-2xl font-bold mb-6">Total Balance</h2>
-        <p >$1200</p>
+        <p >$<span id="totalBalance">1200</span></p>
     </div>
     </div>
 
@@ -30,15 +30,16 @@
 
        <div class="withdraw bg-green-600 text-center py-6 px-8 mx-6 rounded-xl"> 
         <h2 class="text-4xl font-bold mb-6">Deposit</h2>
-        <input class="block mx-auto px-2 text-black rounded" type="text" placeholder="Amount">
-        <button class="bg-slate-600 px-4 py-2 rounded-md  mt-4 hover:bg-orange-950">Send Request</button>
+        <input id="deposit" class="block mx-auto px-2 text-black rounded" type="text" placeholder="Amount">
+        <button id="btn-deposit" class="bg-slate-600 px-4 py-2 rounded-md  mt-4 hover:bg-orange-950">Send Request</button>
        </div>
         <div class="withdraw bg-purple-800 text-center py-6 px-8 mx-6 rounded-xl"> 
         <h2 class="text-4xl font-bold mb-6">Withdraw</h2>
-        <input class="block mx-auto px-2 text-black rounded" type="text" placeholder="Amount">
-        <button class="bg-slate-600 px-4 py-2 rounded-md  mt-4 hover:bg-orange-950">Send Request</button>
+        <input id="widthdraw-field" class="block mx-auto px-2 text-black rounded" type="text" placeholder="Amount">
+        <button id="btn-widthdraw" class="bg-slate-600 px-4 py-2 rounded-md  mt-4 hover:bg-orange-950">Send Request</button>
         </div>
     </div>
-
+    <script src="./js/deposit.js"></script>
+    <script src="./js/widthdraw.js"></script>
 </body>
 </html>
