@@ -40,6 +40,8 @@ document.getElementById('totalBalance').innerText= newBalance;
 
 
 
+
+
     //emt field
 
     widthdrawField.value = '';
